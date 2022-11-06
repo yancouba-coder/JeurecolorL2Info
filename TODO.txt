@@ -1,0 +1,24 @@
+
+Nouveauté : 
+- La grille peut avoir une largeur et une hauteur arbitraire
+
+- Il n'y a pas de limitation dans le nombre de couleurs (même si recolor_text ne supportera qu'au plus 16 couleurs : 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F)
+La possibilité d'avoir des grilles de topologie "torique"  (ou wrapping): colonne la plus à droite est adjacente à la plus à gauche et la ligne la plus haute est adjacente à la ligne la plus basse.
+
+
+
+Eloise : game_new_ext , game_new,game_set_max_moves , game_new_empty et test_game_new_ext , test_game_new , test_game_set_max_moves ,  test_game_new_empty
+
+Hichem : game_set_cell_init , game_set_max_moves , game_play_one_move , game_height et test_game_set_cell_init , test_game_set_max_moves , test_game_play_one_move , test_game_height
+
+Yancouba : game_nb_move_max , game_cell_curent_color , game_nb_move_curent , game_copy , game_new_empty_ext et , test_game_nb_move_max , test_game_cell_curent_color , test_game_nb_move_curent , test_game_copy , test_game_new_empty_ext 
+
+Aboubacar :  game_delete , game_restart , game_is_over , game_width et test_game_delete , test_game_restart , test_game_is_over , test_game_width
+
+game_is_wrapping
+
+
+- game new et game new empty duplicata
+- comentaire dans le .c a enlever
+- enlever les  condition de sortie
+- tester is_wrapping
